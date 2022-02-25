@@ -7,6 +7,14 @@ pub fn reverse(text) -> String {
   string.reverse(text)
 }
 
+pub fn head(text) -> String {
+  let ss =
+    text
+    |> string.to_graphemes
+  assert Ok(s0) = list.at(ss, 0)
+  s0
+}
+
 pub fn sample(text) -> String {
   // text
   // let sr = string.reverse(text)

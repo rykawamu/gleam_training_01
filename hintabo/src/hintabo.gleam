@@ -10,6 +10,9 @@ pub fn main() {
 
   let reverse = hintabo.reverse(nihongo)
   io.println(string.concat(["逆から読むと:", reverse]))
+
+  let head = hintabo.head(nihongo)
+  io.println(string.concat(["最初の文字は:", head]))
   //  let hintabogo = hintabo.encryption(nihongo)
   //  io.println(string.concat(["ひんたぼ語:", hintabogo]))
 }
